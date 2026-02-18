@@ -47,6 +47,24 @@ export default function HomePage() {
               </Link>
 
               <Link
+                href="/apps/mybz"
+                className="group p-6 bg-card border border-border rounded-lg hover:border-accent/50 transition-colors"
+              >
+                <div className="space-y-3">
+                  <h3 className="text-xl font-medium group-hover:text-accent transition-colors">MyBz</h3>
+                  <p className="text-muted-foreground">
+                    Business appointment management with Google Sign-In, Firebase scheduling, and push notifications.
+                  </p>
+                  <div className="flex items-center gap-2 text-sm text-accent">
+                    <span>View Privacy Policy</span>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+              </Link>
+
+              <Link
                 href="/apps/randoo"
                 className="group p-6 bg-card border border-border rounded-lg hover:border-accent/50 transition-colors"
               >

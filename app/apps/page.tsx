@@ -39,6 +39,28 @@ export default function AppsPage() {
             </Link>
 
             <Link
+              href="/apps/mybz"
+              className="group p-8 bg-card border border-border rounded-lg hover:border-accent/50 transition-colors"
+            >
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <h2 className="text-2xl font-medium group-hover:text-accent transition-colors">MyBz</h2>
+                  <svg className="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+                <p className="text-muted-foreground">
+                  Business appointment management app. Google Sign-In, Firebase-powered scheduling, push notifications,
+                  and analytics for business owners.
+                </p>
+                <div className="flex gap-4 text-sm">
+                  <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full">Mobile App</span>
+                  <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full">Web App</span>
+                </div>
+              </div>
+            </Link>
+
+            <Link
               href="/apps/park-slot"
               className="group p-8 bg-card border border-border rounded-lg hover:border-accent/50 transition-colors"
             >

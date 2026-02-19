@@ -20,6 +20,17 @@ export default function MyBzPage() {
             </Link>
             <h1 className="text-4xl font-light">MyBz</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">Privacy Policy</p>
+            <div className="flex gap-4 pt-2">
+              <Link
+                href="/apps/mybz/account-deletion"
+                className="inline-flex items-center gap-2 text-sm text-accent hover:underline transition-colors"
+              >
+                Account & Data Deletion
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
           </div>
 
           <div className="space-y-8">
